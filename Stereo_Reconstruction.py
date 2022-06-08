@@ -173,7 +173,6 @@ def dense_match(img1, img2):
 
 
 
-# PROVIDED functions
 def compute_camera_pose(F, K):
     E = K.T @ F @ K
     R_1, R_2, t = cv2.decomposeEssentialMat(E)
@@ -242,7 +241,6 @@ def visualize_epipolar_lines(F, pts1, pts2, img1, img2):
     ax2.axis('off')
     plt.show()
 
-#had to cast to ints to get this function to work
 def find_epipolar_line_end_points(img, F, p):
     img_width = img.shape[1]
     el = np.dot(F, np.array([p[0], p[1], 1]).reshape(3, 1))
