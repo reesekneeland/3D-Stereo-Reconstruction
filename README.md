@@ -1,8 +1,5 @@
 # 3D-Stereo-Reconstruction
 A computer vision stereo reconstruction algorithm that creates a 3D map given two images.
-CSCI 5561 HW5 Writeup
-Reese Kneeland - 5/4/22
-Professor Hyun Soo Park
 
 ### Sift Feature Matching
 ![1](https://user-images.githubusercontent.com/77468346/172683005-9f4a1078-bd0a-4a93-a77e-9d9dbd3b7428.png)
